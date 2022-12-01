@@ -1,0 +1,27 @@
+.bookmark_container
+{
+    width: 100%;
+    padding: 50px;
+}
+
+.bookmark_box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.bookmark_images
+{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1%;
+}
+
+img
+{
+   height: 100%;
+   width: 100% 
+}
